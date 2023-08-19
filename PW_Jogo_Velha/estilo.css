@@ -1,0 +1,67 @@
+/* . - é para class
+# = para id
+tag  */
+h1{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: aquamarine;
+
+}
+
+#titulo{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*flex-start flex-end*/
+    justify-content: center;
+}
+
+#principal{
+    height: 100%;
+    background-color: bisque;
+    display: flex;
+}
+
+.placar{
+    background-color:lavender;
+    width: 15%;
+    height: 100%;
+}
+
+.jogo{
+   background-color:plum;
+    width: 70%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.linha{
+    align-items: center;
+    border: 2px solid rgb(203, 33, 255);
+    height: 200px;
+    width: 1000px;  
+
+}
+
+.quadrado{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box; /*mantem a largura e altura incluindo a borda */
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+    align-items: center;
+    
+    
+
+}
